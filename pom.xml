@@ -125,10 +125,10 @@
 			<id>jitpack.io</id>
 			<url>https://jitpack.io</url>
 		</repository>
-		<repository>
+		<!--repository>
 			<id>reserve-repo</id>
 			<url>https://dl.bintray.com/theneweconomy/java/</url>
-		</repository>
+		</repository-->
 		<repository>
 			<id>sonatype</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
@@ -148,7 +148,7 @@
 		<dependency>
 			<groupId>com.destroystokyo.paper</groupId>
 			<artifactId>paper-api</artifactId>
-			<version>1.16.1-R0.1-SNAPSHOT</version>
+			<version>1.16.4-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 			<exclusions>
 				<exclusion>
@@ -160,7 +160,7 @@
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot</artifactId>
-			<version>1.16.2</version>
+			<version>1.16.4</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.MilkBowl</groupId>
@@ -168,12 +168,12 @@
 			<version>1.7</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.songoda</groupId>
-			<artifactId>SongodaCore</artifactId>
-			<version>LATEST</version>
-			<scope>compile</scope>
-		</dependency>
+        <dependency>
+            <groupId>com.songoda</groupId>
+            <artifactId>SongodaCore</artifactId>
+            <version>LATEST</version>
+            <scope>compile</scope>
+        </dependency>
 		<dependency>
 			<groupId>com.songoda</groupId>
 			<artifactId>UltimateStacker</artifactId>
@@ -182,8 +182,8 @@
 		</dependency>
 		<dependency>
 			<groupId>be.maximvdw</groupId>
-			<artifactId>MVdWPlaceholderAPI</artifactId>
-			<version>2.1.1-SNAPSHOT</version>
+  			<artifactId>placeholderapi</artifactId>
+  			<version>2.5.1</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.spigotmc</groupId>
